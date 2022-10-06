@@ -23,8 +23,21 @@ void main(List<String> arguments) {
   print(myBool);
   print(anyNum);
 
-  // No need of declaring data-type while using 'var but can't be 'dynamic''
+  // No need of declaring data-type while using 'var but can't be  pre-assign to another data-type'
   var myVarable = 'Varables';
-  // Note: It carn't be change to another data type
+  // Note: It can't be change to another data type
   print(myVarable);
+
+  final myvalue = 'Courage';
+  // As the word implies 'final' , it can'be be change it is use to set a static data;
+  print(myvalue);
+
+  String myData;
+  myData = 'Datum';
+// Declartion of varable and call it on another line
+  print(myData);
+
+  // // Nullable
+  // String? possible = 'null';
+  // print(possible?.length);
 }
